@@ -1,0 +1,69 @@
+body{
+
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(../Linux-Support/linux-help-web-site-dev/images/bg104.gif);
+    background-size: cover;
+}
+
+.box{
+
+    width: 400px;
+    padding: 30px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(243, 91, 91, 0.979);
+    text-align: center;
+}
+
+.box h1{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+.box input[type="text"],.box input[type="password"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #01a6f3;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+    transition: 0.25px;
+}
+
+.box input[type="text"]:focus,.box input[type="password"]:focus
+{
+    width: 270px;
+    border-color: yellow;
+}
+
+.box input[type="submit"]{
+
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #030d69;
+    padding: 14px 20px;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+    transition: 0.25px;
+    cursor: pointer;
+
+}
+
+.box input[type="submit"]:hover{
+    background: yellow;
+}

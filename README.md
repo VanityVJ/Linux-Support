@@ -1,4 +1,7 @@
-# Linux-Support
- Onhand configurations done by Me in my Job
+# Web from foe registration sample
+ 
+Login and regestratin page
 
-Doing basic web designs
+
+user name:  admin
+password: admin
